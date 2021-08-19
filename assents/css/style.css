@@ -11,5 +11,15 @@ body, figure, main, h1, h2, li, ul, a {
 /* GERAL */
 .hidden{
     display: none;
+ }
+ .bg{
+     background-image: url(../img/blackbg.png);
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top;
 
+
+     
+ }
 /* MAIN */
