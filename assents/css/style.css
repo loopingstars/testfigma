@@ -18,8 +18,25 @@ body, figure, main, h1, h2, li, ul, a {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: top;
-
-
-     
+ 
  }
 /* MAIN */
+.container{
+  margin:0 auto;
+}
+main.sessao{
+   
+    
+
+}
+main section.sessao__perfil{}
+main section.linha{}
+main section.linha__esquerda{}
+main section.linha__direita{}
+main section.sessao__frase{}
+main section.lista{}
+main section.lista_whatsapp{}
+main section.lista_facebook{}
+main section.lista_instagram{}
+
+
