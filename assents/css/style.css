@@ -1,31 +1,40 @@
 
 /* RESET */
-body, figure, main, h1, h2, li, ul, a {
-    margin:0;
-    padding:0;
-    border-style: none;
-    text-decoration: none;
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+   }
+      
 }
 /* GERAL */
 .hidden{
     display: none;
  }
- .bg{
-     background-image: url(../img/blackbg.png);
-     position: relative;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: top;
- 
+ body{
+height: 100vh;
+width: 100vw;
  }
-/* MAIN */
-.container{
-  margin:0 auto;
+
+ .container-image{
+    background-image: url(../img/bg2x\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    backdrop-filter: brightness(12%);
+    background-color: rgba(49, 47, 47, 0.789);
+    height: 100%;
 }
+
+
+/* MAIN */
+.container{}
 main{}
-main.sessao{}
+main .sessao{}
 main section{}
 main section .sessao__perfil{}
 main section .sessao__frase{}
@@ -38,4 +47,7 @@ main section .lista__whatsapp{}
 main section .lista__facebook{}
 main section .lista__instagram{}
 main section .frase{}
+main section .fotoperfil{}
+main section article figure a img{}
+main section ul li{}
 
