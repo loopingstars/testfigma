@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Gothic+A1:wght@100&display=swap');
+
+
+
+
 
 /* RESET */
 html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
@@ -9,7 +15,7 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small, 
     outline: none;
     list-style: none;
    }
-      
+    
 
 /* GERAL */
 .hidden{
@@ -28,6 +34,7 @@ height: 100vh;
     background-position: top;
     backdrop-filter: brightness(12%);
     background-color: rgba(49, 47, 47, 0.789);
+
     height: 100vh;
     width: 100vw;
     
@@ -49,8 +56,9 @@ display: flex;
 width: 50vw;
 flex-direction: column;
 height: 90vh;
-background-color:rgba(26, 25, 25, 0.489);
+background-color:rgba(0, 0, 0, 60%);
 border-radius: 15px;
+
 
 
 }
@@ -63,30 +71,30 @@ main section{}
 main section .sessao__perfil{
    
 }
-main section .sessao__frase{}
+main section .sessao__frase{
+    
+}
 main .sessao__redessociais{
- 
-
- 
 
 }
 main section .linha{
-    background-color: rgba(53, 49, 49, 0.57);
+    background-color: #93868647;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content:center;
-    width: 60vh;
-
+    width: 85vh;
+    margin-bottom: 30px;
 
 }
 main section .linha__esquerda{
-margin-right: 6rem;
+margin-right: 2rem;
 }
    
 main section .linha__direita{
 display: flex;
-    align-items: center;
+align-items: center;
+
 }
 main section .lista{
     display: flex;
@@ -101,6 +109,12 @@ main section .lista__instagram{}
 main section .frase{
     text-align: center;
     margin:0 2rem;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 10%;
+    font-weight: bold;
+    opacity: 80%;
+    font-size: 32px;
+    margin-bottom: 90px;
 }
 main section .fotoperfil{
     width: 50px;
@@ -110,6 +124,25 @@ main section h1, h2{
     color:white;
 }
 main section article h2{
-    font-size: 14px;
+    font-size:18px;
+    letter-spacing: 10%;
+    font-family: 'Baskervville', serif;
+    opacity: 100%;
+    color: rgb(181, 177, 177);
+    
 }
 
+/* media */
+
+@media screen and (max-width: 1035px){
+    main section .linha{
+        width:auto;
+    }
+    
+
+
+
+
+}
+
+ 
